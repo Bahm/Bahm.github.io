@@ -1,0 +1,241 @@
+<!--suppress XmlUnboundNsPrefix -->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <meta name="description" content="Jonas x Jobcenter Ventetidsoversigt"/>
+    <meta name="keywords" content="jonas x jobcenter, jonasxjobcenter, jonas, jobcenter, kommune, viborg, skive, ventetid"/>
+    <meta property="og:url" content="http://½.ws/"/>
+    <meta property="og:title" content="Ventetidsoversigt"/>
+    <meta property="og:description" content="Ventetidsoversigt"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link id="custom_style" rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material.min.css"/>
+    <title>Ventetidsoversigt</title>
+
+
+<body>
+<div id="app">
+
+
+    <div class="well container _container">
+        <button v-on:click="show_arcs = !show_arcs" class="fab">Forløb</button>
+
+        <h1 class="text-center">{{info.series_name}} Ventetidsoversigt</h1>
+
+        <div id="main-chart" class="row chart notransition">
+            <div>
+                <div v-for="group in issues_by_year" class="h-row">
+                    <div class="chart-year">{{group.year}}</div>
+                    <div class="h-col" v-for="issue in group.issues"
+                         v-bind:class="[{'false': !issue.released},show_arcs? issue.arc?issue.arc:'hiatus-arc':'']"
+                         v-bind:title="'Issue: ' + issue.number">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center caption">
+            <div v-if="!show_arcs">
+
+                <div class="h-col"></div>
+                Fremskridt
+
+                <div class="h-col false"></div>
+                Ventetid
+            </div>
+        </div>
+        <div v-if="show_arcs" style="width: 500px;margin: 0 auto">
+            <div class="caption" v-for="arc in info.arcs" style="float: left;min-width: 230px">
+                <div v-bind:class="['h-col',arc.key]"></div>
+                {{arc.name}}
+            </div>
+        </div>
+    </div>
+    <div class="well container _container">
+        <div>
+            <h1 class="text-center">Status for Ventetid</h1>
+
+            <div id="status" class="row center-block">
+
+                <div v-if="status.current.hiatusCount>0 && info.ongoing">
+                    <p>Uger siden sidste fremskridt:
+                        <span v-if="status.current.hiatusCount>0">
+                    <strong>{{status.current.hiatusCount}}</strong> uge<span
+                                v-if="status.current.hiatusCount>1">r</span>
+                (siden uge {{status.current.begin.issue}}/{{status.current.begin.year}})
+                    </span>
+                        <strong v-if="status.current.hiatusCount==0">Fremskridt i den her uge!</strong>
+                    </p>
+
+                    <div class="bar false" v-bind:style="{width: status.currentWidth}"></div>
+
+                </div>
+
+
+                <div v-if="status.currentPubStreak.count>0 && info.ongoing">
+                    <p>
+                        Uger i træk med fremskridt p.t.:
+                        <strong>{{status.currentPubStreak.count}}</strong> uge<span
+                            v-if="status.currentPubStreak.count>1">r</span>
+                        (fra uge
+                        {{status.currentPubStreak.begin.issue}}/{{status.currentPubStreak.begin.year}})
+                    </p>
+
+                    <div class="bar blue" v-bind:style="{width: status.currentPubStreakWidth}"></div>
+
+                </div>
+                <p>Længeste ventetid: <strong>{{status.longest.hiatusCount}} </strong>uge<span
+                        v-if="status.longest.hiatusCount>1">r</span>
+                    (fra uge {{status.longest.begin.issue}}/{{status.longest.begin.year}} til uge
+                    {{status.longest.end.issue}}/{{status.longest.end.year}})
+                </p>
+
+                <div class="bar" :style="{width:status.longestWidth}"></div>
+
+                <p>
+                    Længste periode med fremskridt uden pause: <strong>{{status.pubStreak.count}}</strong> uger
+                    (fra uge {{status.pubStreak.begin.issue}}/{{status.pubStreak.begin.year}} til uge
+                    {{status.pubStreak.end.issue}}/{{status.pubStreak.end.year}})
+                </p>
+
+                <div class="bar dark-blue" :style="{width:status.pubStreakWidth}"></div>
+            </div>
+        </div>
+    </div>
+    <div class="well container _container">
+        <div>
+            <h1 class="text-center">Overall Stats</h1>
+
+            <div id="stats" class="row center-block">
+                <p><strong>{{status.overall.totalIssues}}</strong> uger siden
+                    {{info.series_name}}'s debut</p>
+
+                <div class="caption">
+                    <p class="bar-info"><span class="text-info"><strong>{{status.overall.totalPresent}}</strong> ({{(status.overall.totalPresent / status.overall.totalIssues / 0.01).toFixed(1)}}%) </span>total
+                        uger {{info.series_name}} så fremskridt</p>
+                    <p class="bar-info" style="float: right;"><span class="text-danger"><strong>{{status.overall.totalHiatus}}</strong> ({{(status.overall.totalHiatus/status.overall.totalIssues/0.01).toFixed(1)}}%) </span>total
+                        uger uden fremskridt</p>
+
+                </div>
+
+                <div :style="{width:status.pTotalPresent}" style="float:left">
+
+
+                    <div class="bar left blue" style="display: inline-block; width:100%"></div>
+                </div>
+                <div :style="{width:status.pTotalHiatus}" style="float:left">
+
+                    <div class="bar false right" style="display: inline-block;width:100%"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="well container _container" v-if="major_hiatuses.length >0">
+        <div>
+            <h1 class="text-center">Længste Perioder med Ventetid</h1>
+
+            <div id="breaks" class="row center-block">
+                <div class="col-xs-10 col-xs-offset-1">
+
+                    <table class="table table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>Start</th>
+                            <th>Slut</th>
+                            <th class="col-xs-8">Antal uger</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr v-for="hiatus in status.major_hiatuses">
+                            <td>{{hiatus.start}}</td>
+                            <td>{{hiatus.end}}</td>
+                            <td>
+                                <div class="table-bar"
+                                     :style="{width:hiatus.viewProportion}">
+                                    {{hiatus.total}}
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="well container _container">
+        <div class="row">
+            <h3 class="text-center">Fremskridt efter år</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="col-md-12">
+                    <div class="chart-responsive">
+                        <canvas height="250" ref="yearlyCanvas"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="well container _container">
+        <div class="row">
+            <h3 class="text-center">Ventetid / år</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1">
+                <table class="table table-condensed table-hover">
+                    <thead>
+                    <tr>
+                        <th>År</th>
+                        <th>Uger uden fremskridt</th>
+                        <th>% Ventetid</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr v-for="info in hiatuses_by_year">
+                        <td>{{info.year}}</td>
+                        <td>{{info.total_hiatus}}/{{info.total_issues}}</td>
+                        <td v-bind:class="info.percent >50? 'text-danger':''">
+                            {{info.percent}}%
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="well container _container">
+        <div class="row">
+            <h3 class="text-center">Alle oversigter</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 buttons">
+                <a href="/JONASxJOBCENTER" class="chart-button">Jonas x Jobcenter</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://unpkg.com/vue@2.4.2/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<script src="/app.js"></script>
+
+</body>
+<!--made by http://www.reddit.com/user/rentzhx3-->
+
+
+</html>

@@ -1,0 +1,112 @@
+.hiatus-arc {
+    background-color: #E0E0E0;
+}
+
+.h-row:hover .hiatus-arc {
+    background-color: #cacaca !important;
+}
+
+.10sessions {
+    background-color: #3F51B5;
+}
+
+.h-row:hover .10sessions {
+    background-color: #1A237E;
+}
+
+.star {
+    background-color: #009688;
+}
+
+.h-row:hover .star {
+    background-color: #004D40;
+}
+
+.jobkonsulent {
+    background-color: #FFC107;
+}
+
+.h-row:hover .jobkonsulent {
+    background-color: #FF6F00;
+}
+
+.bostøtte {
+    background-color: #4CAF50;
+}
+
+.h-row:hover .bostøtte {
+    background-color: #43A047;
+}
+
+.rehabiliteringsmøde {
+    background-color: #FF5722;
+}
+
+.h-row:hover .rehabiliteringsmøde {
+    background-color: #F4511E;
+}
+
+.kliniskfunktion {
+    background-color: #9C27B0;
+}
+
+.h-row:hover .kliniskfunktion {
+    background-color: #7B1FA2;
+}
+
+.rehabiliteringsplanen {
+    background-color: #E91E63;
+}
+
+.h-row:hover .rehabiliteringsplanen {
+    background-color: #C2185B;
+}
+
+.mentorstøtte {
+    background-color: #607D8B;
+}
+
+.h-row:hover .mentorstøtte {
+    background-color: #546E7A;
+}
+
+.huset {
+    background-color: #F44336;
+}
+
+.h-row:hover .huset {
+    background-color: #B71C1C;
+}
+
+.enkeltfag {
+    background-color: #FFA07A;
+}
+
+.h-row:hover .enkeltfag {
+    background-color: #FA8072;
+}
+
+.bomi {
+    background-color: #1AC100;
+}
+
+.h-row:hover .bomi {
+    background-color: #128400;
+}
+
+.viborg {
+    background-color: #B1E600;
+}
+
+.h-row:hover .viborg {
+    background-color: #799E00;
+}
+
+/*add a margin to the last row*/
+.chart div .h-row:last-child .h-col:nth-child(2) {
+    margin-left: 44px;
+}
+
+.h-col {
+    width: 19px;
+}

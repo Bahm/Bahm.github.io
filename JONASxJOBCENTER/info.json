@@ -1,0 +1,59 @@
+{
+  "series_name": "HUNTER×HUNTER",
+  "ongoing": true,
+  "major_hiatus_threshold": 4,
+  "arcs": [
+    {
+      "key": "hiatus-arc",
+      "name": "Great Hiatus Arc"
+    },
+    {
+      "key": "10sessions",
+      "name": "10 Sessions Late Comeback"
+    },
+    {
+      "key": "star",
+      "name": "Star's Ressourceforløb"
+    },
+    {
+      "key": "jobkonsulent",
+      "name": "Find en Jobkonsulent"
+    },
+    {
+      "key": "bostøtte",
+      "name": "Autistisk Bostøtte"
+    },
+    {
+      "key": "rehabiliteringsmøde",
+      "name": "Rehabiliteringsmøde"
+    },
+    {
+      "key": "kliniskfunktion",
+      "name": "Klinisk Funktion"
+    },
+    {
+      "key": "rehabiliteringsplanen",
+      "name": "Rehabiliteringsplanen"
+    },
+    {
+      "key": "mentorstøtte",
+      "name": "Mentorstøttens Dagbog"
+    },
+    {
+      "key": "huset",
+      "name": "Huset's Mentalitet"
+    },
+    {
+      "key": "enkeltfag",
+      "name": "Det enkle Enkeltfag"
+	},
+    {
+      "key": "bomi",
+      "name": "Kontanthjælpsjob hos BOMI"
+    },
+    {
+      "key": "viborg",
+      "name": "Finanskrisen"
+    }
+  ]
+}
