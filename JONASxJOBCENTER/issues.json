@@ -1,5 +1,64 @@
 [
   {
+    "number": 45,
+    "year": 2018,
+    "released": true,
+  },
+  {
+    "number": 44,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 43,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 42,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 41,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 40,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 39,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 38,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 37,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
+    "number": 36,
+    "year": 2018,
+    "released": false,
+    "arc": "10sessions"
+  },
+  {
     "number": 35,
     "year": 2018,
     "released": true,
