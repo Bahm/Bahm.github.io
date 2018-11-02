@@ -44,26 +44,26 @@
   {
     "number": 38,
     "year": 2018,
-    "released": false,
+    "released": true,
     "arc": "tensessions"
   },
   {
     "number": 37,
     "year": 2018,
     "released": false,
-    "arc": "tensessions"
+    "arc": "star"
   },
   {
     "number": 36,
     "year": 2018,
     "released": false,
-    "arc": "tensessions"
+    "arc": "star"
   },
   {
     "number": 35,
     "year": 2018,
-    "released": true,
-    "arc": "tensessions"
+    "released": false,
+    "arc": "star"
   },
   {
     "number": 34,
