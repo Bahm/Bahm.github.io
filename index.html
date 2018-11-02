@@ -30,7 +30,7 @@
                 <div v-for="group in issues_by_year" class="h-row">
                     <div class="chart-year">{{group.year}}</div>
                     <div class="h-col" v-for="issue in group.issues"
-                         v-bind:class="[{'false': !issue.released},show_arcs? issue.arc?issue.arc:'hiatus-arc':'']"
+                         v-bind:class="[{'false': !issue.released},show_arcs? issue.arc?issue.arc:'hiatus-arc':'',{'arcs': show_arcs}]"
                          v-bind:title="'Issue: ' + issue.number">
                     </div>
 

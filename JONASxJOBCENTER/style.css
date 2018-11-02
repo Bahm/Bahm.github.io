@@ -1,3 +1,7 @@
+.arcs.false:not(.hiatus-arc) {
+    opacity: 0.5;
+}
+
 .hiatus-arc {
     background-color: #E0E0E0;
 }
