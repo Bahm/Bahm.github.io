@@ -74,37 +74,44 @@
   {
     "number": 33,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 32,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 31,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 30,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 29,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 28,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 27,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "jobkonsulent"
   },
   {
     "number": 26,
@@ -223,92 +230,110 @@
   {
     "number": 7,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 6,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 5,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 4,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 3,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 2,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 1,
     "year": 2018,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 52,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 51,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 50,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 49,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 48,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 47,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 46,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 45,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 44,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 43,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 42,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "bostøtte"
   },
   {
     "number": 41,
@@ -342,17 +367,20 @@
   {
     "number": 36,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 35,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 34,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 33,
@@ -363,32 +391,38 @@
   {
     "number": 32,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 31,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 30,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 29,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 28,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 27,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 26,
@@ -399,137 +433,164 @@
   {
     "number": 25,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 24,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 23,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 22,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 21,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 20,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 19,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 18,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 17,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 16,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 15,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 14,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 13,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 12,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 11,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 10,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 9,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 8,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 7,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 6,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 5,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 4,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 3,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 2,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 1,
     "year": 2017,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 52,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 51,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "kliniskfunktion"
   },
   {
     "number": 50,
@@ -546,12 +607,14 @@
   {
     "number": 48,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 47,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 46,
@@ -562,22 +625,26 @@
   {
     "number": 45,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 44,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 43,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 42,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "rehabiliteringsplanen"
   },
   {
     "number": 41,
@@ -594,67 +661,80 @@
   {
     "number": 39,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 38,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 37,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 36,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 35,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 34,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 33,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 32,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 31,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 30,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 29,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 28,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 27,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 26,
@@ -671,7 +751,8 @@
   {
     "number": 24,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 23,
@@ -682,27 +763,32 @@
   {
     "number": 22,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 21,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 20,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 19,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 18,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "mentorstøtte"
   },
   {
     "number": 17,
@@ -713,12 +799,14 @@
   {
     "number": 16,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "huset"
   },
   {
     "number": 15,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "huset"
   },
   {
     "number": 14,
@@ -729,17 +817,20 @@
   {
     "number": 13,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "huset"
   },
   {
     "number": 12,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "huset"
   },
   {
     "number": 11,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "huset"
   },
   {
     "number": 10,
@@ -750,7 +841,8 @@
   {
     "number": 9,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "enkeltfag"
   },
   {
     "number": 8,
@@ -761,17 +853,20 @@
   {
     "number": 7,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "enkeltfag"
   },
   {
     "number": 6,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "enkeltfag"
   },
   {
     "number": 5,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "enkeltfag"
   },
   {
     "number": 4,
@@ -782,12 +877,14 @@
   {
     "number": 3,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "bomi"
   },
   {
     "number": 2,
     "year": 2016,
-    "released": false
+    "released": false,
+    "arc": "bomi"
   },
   {
     "number": 1,
@@ -798,12 +895,14 @@
   {
     "number": 53,
     "year": 2015,
-    "released": false
+    "released": false,
+    "arc": "bomi"
   },
   {
     "number": 52,
     "year": 2015,
-    "released": false
+    "released": false,
+    "arc": "bomi"
   },
   {
     "number": 51,
