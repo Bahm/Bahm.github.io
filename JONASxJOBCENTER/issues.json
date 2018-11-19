@@ -1,5 +1,47 @@
 [
   {
+    "number": 1,
+    "year": 2019,
+    "released": true,
+	"arc": "rehabiliteringsmøde2019"
+  },
+  {
+    "number": 51,
+    "year": 2018,
+    "released": false,
+	"arc": "rehabiliteringsmøde2019"
+  },
+    {
+    "number": 50,
+    "year": 2018,
+    "released": false,
+	"arc": "rehabiliteringsmøde2019"
+  },
+    {
+    "number": 49,
+    "year": 2018,
+    "released": false,
+	"arc": "rehabiliteringsmøde2019"
+  },
+    {
+    "number": 48,
+    "year": 2018,
+    "released": false,
+	"arc": "rehabiliteringsmøde2019"
+  },
+  {
+    "number": 47,
+    "year": 2018,
+    "released": true,
+	"arc": "lægeattest2018"
+  },
+    {
+    "number": 46,
+    "year": 2018,
+    "released": false,
+	"arc": "lægeattest2018"
+  },
+    {
     "number": 45,
     "year": 2018,
     "released": true,
@@ -44,7 +86,7 @@
   {
     "number": 38,
     "year": 2018,
-    "released": true,
+    "released": false,
     "arc": "tensessions"
   },
   {
