@@ -10,6 +10,22 @@
     background-color: #cacaca !important;
 }
 
+.rehabiliteringsmøde2019 {
+    background-color: #B1E600;
+}
+
+.h-row:hover .rehabiliteringsmøde2019 {
+    background-color: #799E00;
+}
+
+.lægeattest2018 {
+    background-color: #FFA07A;
+}
+
+.h-row:hover .lægeattest2018 {
+    background-color: #FA8072;
+}
+
 .tensessions {
     background-color: #3F51B5;
 }
